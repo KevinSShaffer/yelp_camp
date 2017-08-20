@@ -1,0 +1,30 @@
+
+.delete {
+	display: inline;
+}
+
+.btn-warning {
+	width: 100px;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+.thumbnail {
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.row-images {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form-new-site {
+	width: 30%;
+	margin: 25px auto;
+}
