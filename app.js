@@ -54,7 +54,8 @@ var seedDB = require('./seeds');
 		console.log('Yelp camp application listening on port 3000');
 	});
 
-	mongoose.connect('mongodb://localhost/yelp_camp', {
+	//mongoose.connect('mongodb://localhost/yelp_camp', {
+	mongoose.connect(require('./connection'), {
 	  useMongoClient: true
 	});
 /* End Connections */
